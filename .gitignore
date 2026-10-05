@@ -1,0 +1,43 @@
+# Real config with passwords and secrets: commit application.properties.example instead
+backend/src/main/resources/application.properties
+
+# Build output and dependencies
+backend/target/
+backend/bin/
+frontend/node_modules/
+frontend/dist/
+
+# Uploaded files (runtime data)
+backend/uploads/
+uploads/
+
+# IDE / tool folders
+.idea/
+.vscode/
+.claude/
+*.iml
+
+# OS / misc
+.DS_Store
+Thumbs.db
+*.log
+
+# Not part of the code repository
+UniDesk Project Report.docx
+
+# Local start/stop scripts (not shared)
+start-all.bat
+start-all.ps1
+start-backend.bat
+start-frontend.bat
+stop-all.bat
+
+# Only backend/, frontend/ and database/ go into git
+README.md
+README.txt
+CRUD_MAPPING.md
+CRUD_MAPPING_GENUINE.md
+setup-database.ps1
+
+# Per-member copies made for uploading
+gitpush/
